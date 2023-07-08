@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amit - Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Poppins:wght@300;400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="header">
+        <nav>
+            <div class="left"><h1>Amit Portfolio</h1></div>
+            <div class="right">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Portfolio</a></li>
+                    <li><a href="">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+     <sction class="firstsection">
+            <div class="leftsection">
+                Hi,My name is <br><span class="purple"><h2>Amit Kumar</h2></span>
+                <div>And I am a passionate</div>
+                <div>Web Developer</div>
+                <span id="element"></span>
+            </div>
+            <div class="rightsection">
+                <img src="one.png" alt="">
+            </div>
+        </sction>
+
+        <!-------------------about------------------->
+        <div class="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="user.png">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quibusdam nesciunt
+                            voluptatum odio. Ex, cum placeat beatae sit hic quas id, recusandae saepe praesentium modi
+                            in facere. Reprehenderit, ipsum fuga!</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li>
+                                    <span>UI/UX</span><br>Designing Web/App interface
+                                </li>
+                                <li>
+                                    <span>Web Development</span><br>Web App Development
+                                </li>
+                                <li>
+                                    <span>App Development</span><br>Building Android/IOS apps
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents"  id="experience">
+                            <ul>
+                                <li>
+                                    <span>2 Years</span><br>Javascript Developer
+                                </li>
+                                <li>
+                                    <span>3 Years</span><br>App/Web Development
+                                </li>
+                                <li>
+                                    <span>5 Years</span><br>Graphic Designing
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li>
+                                    <span>B.Tech</span><br>APJ Abdul kalam University
+                                </li>
+                                <li>
+                                    <span>Diploma</span><br>Aligarh Muslim University
+                                </li>
+                                <li>
+                                    <span>Intermediat</span><br>Delhi Public School
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--------------------Services----------------->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <h2>Web Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore suscipit, nisi amet incidunt, inventore, assumenda blanditiis perferendis corporis eius enim recusandae soluta fuga illum? Omnis nobis odio fugiat eligendi in.</p>
+                        <a href="">Learn more</a>
+                    </div>
+                    <div>
+                        <h2>UX/UI Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore suscipit, nisi amet incidunt, inventore, assumenda blanditiis perferendis corporis eius enim recusandae soluta fuga illum? Omnis nobis odio fugiat eligendi in.</p>
+                        <a href="">Learn more</a>
+                    </div>
+                    <div>
+                        <h2>App Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore suscipit, nisi amet incidunt, inventore, assumenda blanditiis perferendis corporis eius enim recusandae soluta fuga illum? Omnis nobis odio fugiat eligendi in.</p>
+                        <a href="">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+ 
+        <!--------------------Portfolio----------------->
+
+        <div id="Portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="work-1.png">
+                        <div class="layer">
+                            <h3>Social Media App</h3>
+                            <p>The app contacts you the talent <br>
+                                Download it from play store.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="work-2.png">
+                        <div class="layer">
+                            <h3>Social Media App</h3>
+                            <p>The app contacts you the talent<br>
+                                Download it from play store.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="work-3.png">
+                        <div class="layer">
+                            <h3>Social Media App</h3>
+                            <p>The app contacts you the talent <br>
+                                Download it from play store.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+
+        <!--------------------Contact----------------->
+
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-middle">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <form>
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button class="btn1"   type="submit">Submit</button>
+                        </form>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Javascript Developer', 'Ux/Ui Designer', 'Php Developer'],
+            typeSpeed: 50,
+        });
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+</body>
+
+</html>
